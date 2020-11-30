@@ -1,0 +1,8 @@
+browser->server: HTTP POST new note, https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over browser:
+The Content-Type header of the request tells the server that
+the included data is represented in the JSON format
+end note
+
+server-->browser: status code 201 created (does not ask for a redirect)
